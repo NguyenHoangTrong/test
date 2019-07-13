@@ -1,0 +1,2 @@
+- Add the project in Eclipse IDE
+- Run Main methods in pakages
