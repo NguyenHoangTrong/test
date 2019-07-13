@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="question1.Toyota"/>
+<fullyQualifiedTypeName name="question1.BMV"/>
+<fullyQualifiedTypeName name="question2.Runnable"/>
+<fullyQualifiedTypeName name="question1.Car"/>
+<fullyQualifiedTypeName name="question2.Car"/>
+<fullyQualifiedTypeName name="question2.Toyota"/>
+<fullyQualifiedTypeName name="question2.BMV"/>
+<fullyQualifiedTypeName name="question3.Car"/>
+<fullyQualifiedTypeName name="java.lang.Runnable"/>
+<fullyQualifiedTypeName name="question4.Car"/>
+<fullyQualifiedTypeName name="question3.Toyota"/>
+<fullyQualifiedTypeName name="question3.BMV"/>
+<fullyQualifiedTypeName name="question4.Toyota"/>
+<fullyQualifiedTypeName name="question4.BMV"/>
+</qualifiedTypeNameHistroy>

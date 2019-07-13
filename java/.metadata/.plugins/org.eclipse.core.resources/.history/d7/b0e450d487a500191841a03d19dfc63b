@@ -1,0 +1,17 @@
+package question4;
+
+import question1.BMV;
+import question1.Toyota;
+
+public class Main {
+	
+	private int maxSpeedToyota = 100;
+	private int maxSpeedBMV = 200;
+
+	public static void main(String[] args) {
+		Toyota t = new Toyota(4, 4, 4, maxSpeedToyota);
+		BMV b = new BMV(4, 4, 4, maxSpeedToyota);
+
+	}
+
+}

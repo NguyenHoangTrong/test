@@ -1,0 +1,20 @@
+package question1;
+
+import question2.Car;
+
+public class BMV extends Car {
+
+	private int maxSpeed= 200;
+	public void info() {
+		System.out.println("Whell: "+""+getWhell());
+		System.out.println("Seats: "+""+getSeats());
+		System.out.println("Doors: "+""+getDoors());
+		System.out.println("Max speed: "+""+this.maxSpeed);	
+	}
+	
+	public void Speed() {
+		for(int i=0; i<10; i++) {
+			System.out.println(this.maxSpeed);
+		}
+	}
+}

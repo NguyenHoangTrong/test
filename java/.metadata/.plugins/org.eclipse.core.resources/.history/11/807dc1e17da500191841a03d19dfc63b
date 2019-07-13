@@ -1,0 +1,7 @@
+package question2;
+
+public class Toyota extends Car{
+	
+	private int maxSpeed = 100;
+	Car c = new Car(whell, doors, seats, this.maxSpeed);
+}

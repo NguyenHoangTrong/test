@@ -1,0 +1,14 @@
+package question1;
+
+import question2.Car;
+
+public class Toyota extends Car{
+
+	private int maxSpeed= 100;
+	public void info() {
+		System.out.println("Whell: "+""+this.whell);
+		System.out.println("Seats: "+""+this.seats);
+		System.out.println("Doors: "+""+this.doors);
+		System.out.println("Max speed: "+""+getMaxSpeed());	
+	}
+}

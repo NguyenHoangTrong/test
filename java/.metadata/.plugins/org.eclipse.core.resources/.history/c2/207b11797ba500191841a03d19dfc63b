@@ -1,0 +1,17 @@
+package question1;
+
+
+
+public class Toyota extends Car{
+
+	Car c = new Car();
+	private int maxSpeed= 100;
+	public void infomation() {
+		c.info();
+		System.out.println("Max speed: "+""+this.maxSpeed);	
+	}
+	
+	public void Speed() {
+		c.run();
+	}
+}

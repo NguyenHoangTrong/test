@@ -1,0 +1,6 @@
+package question1;
+
+public class Toyota extends Car{
+
+	private int maxSpeed= 100;
+}

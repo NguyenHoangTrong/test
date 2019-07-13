@@ -1,0 +1,66 @@
+package question1;
+
+public class Car {
+
+	protected int whell;
+	protected int doors;
+	private int seats;
+	private int maxSpeed;
+	
+	public Car(int whell, int doors, int seats, int maxSpeed) {
+		this.whell = whell;
+		this.doors = doors;
+		this.seats = seats;
+		this.maxSpeed = maxSpeed;
+	}
+	
+	public void info() {
+		System.out.println(this.whell);
+		System.out.println(this.doors);
+		System.out.println(this.seats);
+		System.out.println(maxSpeed);
+	}
+	
+	public void run() {
+		for(int i=0; i<10; i++) {
+			System.out.println(maxSpeed);
+		}
+	}
+	
+	public int getWhell() {
+		return whell;
+	}
+	public void setWhell(int whell) {
+		this.whell = whell;
+	}
+	public int getDoors() {
+		return doors;
+	}
+	public void setDoors(int doors) {
+		this.doors = doors;
+	}
+	public int getSeats() {
+		return seats;
+	}
+	public void setSeats(int seats) {
+		this.seats = seats;
+	}
+	public int getSpeed() {
+		return maxSpeed;
+	}
+	public void setSpeed(int speed) {
+		this.maxSpeed = speed;
+	}
+
+	public int getMaxSpeed() {
+		return maxSpeed;
+	}
+
+	public void setMaxSpeed(int maxSpeed) {
+		this.maxSpeed = maxSpeed;
+	}
+	
+	
+	
+	
+}

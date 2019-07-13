@@ -1,0 +1,37 @@
+package question1;
+
+public class Car {
+
+	private int whell= 4;
+	private int doors= 4;
+	private int seats= 4;
+	private int maxSpeed;
+	public int getWhell() {
+		return whell;
+	}
+	public void setWhell(int whell) {
+		this.whell = whell;
+	}
+	public int getDoors() {
+		return doors;
+	}
+	public void setDoors(int doors) {
+		this.doors = doors;
+	}
+	public int getSeats() {
+		return seats;
+	}
+	public void setSeats(int seats) {
+		this.seats = seats;
+	}
+	public int getSpeed() {
+		return maxSpeed;
+	}
+	public void setSpeed(int speed) {
+		this.maxSpeed = speed;
+	}
+	
+	
+	
+	
+}

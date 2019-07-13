@@ -1,0 +1,58 @@
+package question2;
+
+public class Car implements Runnable{
+	
+	private int whell= 4;
+	private int doors= 4;
+	private int seats= 4;
+	protected int maxSpeed;
+
+	@Override
+	public void info() {
+		System.out.println("Whell: "+""+this.whell);
+		System.out.println("Seats: "+""+this.seats);
+		System.out.println("Doors: "+""+this.doors);
+		System.out.println("Max speed: "+""+this.maxSpeed);	
+	}
+
+	@Override
+	public void maxSpeed() {
+		for(int i=0; i<10; i++) {
+			System.out.println(this.maxSpeed);
+		}
+	}
+
+	public int getWhell() {
+		return whell;
+	}
+
+	public void setWhell(int whell) {
+		this.whell = whell;
+	}
+
+	public int getDoors() {
+		return doors;
+	}
+
+	public void setDoors(int doors) {
+		this.doors = doors;
+	}
+
+	public int getSeats() {
+		return seats;
+	}
+
+	public void setSeats(int seats) {
+		this.seats = seats;
+	}
+
+	public int getMaxSpeed() {
+		return maxSpeed;
+	}
+
+	public void setMaxSpeed(int maxSpeed) {
+		this.maxSpeed = maxSpeed;
+	}
+
+	
+}

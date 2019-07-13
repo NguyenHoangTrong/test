@@ -1,0 +1,16 @@
+package question1;
+
+import question2.Car;
+
+public class Toyota extends Car{
+
+	private int maxSpeed= 100;
+	Car c = new Car();
+	public void info() {
+		c.info();
+	}
+	
+	public void Speed() {
+		c.maxSpeed();
+	}
+}

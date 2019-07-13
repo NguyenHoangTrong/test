@@ -1,0 +1,22 @@
+package question2;
+
+public class Car implements Runnable{
+	
+	private int whell= 4;
+	private int doors= 4;
+	private int seats= 4;
+	private int maxSpeed;
+
+	@Override
+	public void info() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void maxSpeed() {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

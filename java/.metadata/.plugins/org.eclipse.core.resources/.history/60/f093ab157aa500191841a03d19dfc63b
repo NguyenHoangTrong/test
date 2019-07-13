@@ -1,0 +1,14 @@
+package question2;
+
+public class BMV extends Car{
+
+	private int maxSpeed= 200;
+	Car c = new Car();
+	public void info() {
+		c.info();
+	}
+	
+	public void Speed() {
+		c.maxSpeed();
+	}
+}

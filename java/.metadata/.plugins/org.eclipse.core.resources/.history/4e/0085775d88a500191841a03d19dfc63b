@@ -1,0 +1,22 @@
+package question4;
+
+import question1.BMV;
+import question1.Toyota;
+
+public class Main {
+	
+	private static int maxSpeedToyota = 100;
+	private static int maxSpeedBMV = 200;
+
+	public static void main(String[] args) {
+		Toyota to = new Toyota(4, 4, 4, maxSpeedToyota);
+		BMV b = new BMV(4, 4, 4, maxSpeedBMV);
+		Thread threadT = new Thread(to, "Thread Toyota");
+		threadT.setPriority(10);
+		threadToyota.start();
+		Thread threadBMV = new Thread(b, "Thread BMV");
+		threadBMV.setPriority(5);
+		threadBMV.start();
+	}
+
+}

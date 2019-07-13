@@ -1,0 +1,16 @@
+package question2;
+
+public class Main {
+
+	public static void main(String[] args) {
+		Toyota t = new Toyota(4, 4, 4, 100);
+		Thread threadToyota = new Thread(t, "Thread Toyota");
+		threadToyota.setPriority(Thread.MAX_PRIORITY);
+		threadToyota.start();
+		BMV b = new BMV(4, 4, 4, 200);
+		Thread threadBMV = new Thread(b, "Thread BMV");
+		threadToyota.setPriority(Thread.MIN_PRIORITY);
+		threadBMV.start();
+	}
+
+}

@@ -1,0 +1,12 @@
+package question2;
+
+public class Toyota extends Car{
+	
+	private int maxSpeed = 100;
+	public Toyota(whell, doors, seats, this.maxSpeed) {
+		super(whell, doors, seats, maxSpeed);
+		
+	}
+	Car c = new Car();
+	private int MaxSpeed = 100;
+}

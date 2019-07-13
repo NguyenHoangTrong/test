@@ -1,0 +1,26 @@
+package question4;
+
+public class Main {
+
+	private static int maxSpeedToyota = 100;
+	private static int maxSpeedBMV = 200;
+
+	public static void main(String[] args) {
+		Toyota t0 = new Toyota(4, 4, 4, maxSpeedToyota);
+		BMV b0 = new BMV(4, 4, 4, maxSpeedBMV);
+		for(int i=2; i<21; i++) {
+		I	if(i%2==0) {
+				Thread threadToyota = new Thread(t0, "Thread Toyota");
+				threadToyota.start();
+		    }
+			else {
+				Thread threadBMV = new Thread(b0, "Thread BMV");
+				threadBMV.start();
+			}
+		}
+		
+		
+		
+	}
+
+}
